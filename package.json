@@ -1,0 +1,19 @@
+{
+  "name": "jebase",
+  "version": "1.2.1",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "runkitExampleFilename": "runkit.js",
+  "keywords": [
+    "database",
+    "json"
+  ],
+  "author": "GeorgeNet",
+  "license": "ISC"
+}
