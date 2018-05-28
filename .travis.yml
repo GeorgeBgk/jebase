@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - "node"
-  - "lts/*"
+- node
+- lts/*
+deploy:
+  provider: npm
+  email: george@bygeorgenet.me
+  api_key:
+    secure: q7hQiekaXUk9/GVEg5q14UvAP28KmObyorxrYY2RumTAe8AAwpRUHoZgqlp8ljYpOnk5SGrs7nhuPzhkDkC5hu5lv2zbyQemZsdO3WDuOsdaukPDTPhUqK7I6s7UNFgsQfkkzMAzqb/hML7XFMmRTmfVr77OwwKejIe0fZGHk4aFgTqRjlxDfnurotZNyetnOY1YL1Io/TshQpaaOBfpGW3ZlD/rbbfQfhqosmFt7ypOsMivoZ3UgBlRPgRE+ziWhuttfzTCbg/vhbNYCafR5epKmkcbdDx1r4H8w9jF8f0MvEkTBjxBJcpN81TIJhScDm1JR8cZVDNRydPoN3WNdiQ6eUFzMACmqwv0G7T3wnylEALcue13m6vjArmx5GBAyQs7sDpL1WPK43vZhAO5TGDPXr1HsGRX4qVzedkfZMFKLPEz+ebramOqCb4EnkufFl9UooUK4RepNBu4m+jOkHZziETIeCmXmOTHTQ2IiQQrpPfVOQ9/E4UODnW2Jf4zeHgAQEWBbZ2lNV+f+7iCi5kPVI36nXHRDkAXIBJWy9QN77HTASdEOJyfMqfPC+npvPGE1UV/0YDQP5x0EMukcBi9us63EV7RB43N44joh8CMxMSWCwfnNAabXHAFRVhpGx86081BMk6M4u5C5MIXs/c+M3oHAMYBYFuy2rudi7A=
+  on:
+    repo: GeorgeBgk/jebase
