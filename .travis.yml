@@ -1,3 +1,9 @@
 language: node_js
 node_js:
 - node
+deploy:
+  provider: npm
+  email: george@bygeorgenet.me
+  api_key: $NPM_API_KEY
+  on:
+    repo: GeorgeBgk/jebase
