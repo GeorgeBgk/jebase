@@ -1,10 +1,3 @@
 language: node_js
 node_js:
 - node
-deploy:
-  provider: npm
-  email: george@bygeorgenet.me
-  api_key:
-    secure: K4ALpHxsvhSLLVU5jt3LbFmUb+8Ai30HbrU1syI63EBdsWdgXz3aVqEP9tyx85suS9mijerR1YEyIa/vtXWOsDd9Z1jUtyGLQ15B+uqxu07dI82utyfAx6/39P4HIizGWvybl+aKAQN7Qc4dIQtB6J5UDHnusX/fMoXqIJQZmqpPfxU0Ciqf0FmVBdEA3S/Bq02rmGQXOTyXyXh0r+MtcSNADUsRzmSU8tbjFTQZXwgSBcNgVJaZU86DfNEdrLQfUYA1Gbv3aGHVYB1N2CAloPUXfrHf/2eZ8kOZTk2aPzOX2EfqHK2ntiAlh6+HkEPR+BhvpmilXFQqbk+j6mcTi7g0qFqy1Xcf3KVC6Rwy9rA4f7zXJ0x8Pi5VJd9/w+ELt8+Km5qQBw336xygfr5f6ZWgbsgGKwKlfq9tmiL9Bc2FFtRvv1SjRfmAn5z14KrWapER1S/NTw4m98Vb3dwSemsIeXBubwJUEaxxOw1LtEmDegppt54AZKgxgFfkElxo/VFyacZMKTQ/94x5ZFxCTcavSMEsog0ihjwazoIj+/SDoki2KK+IbUFDte9tJVEwdSRgeVq3X3KSkGnZXi4DiRCpqw0l/bljABIsN5uBHcq+kHXXmha/sKh5W8p4Dy5eTAPO+f1WYjYHRD7MDdxwFf9h0nw+TDfJENIqcTmaI3s=
-  on:
-    repo: GeorgeBgk/jebase
