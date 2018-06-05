@@ -1,11 +1,18 @@
-const assert = require('assert').strict
+var test = require('ava').test
 var fs = require('fs')
 var jb = require('./index')
 var db = new jb.Jebase('test.json', {
   accounts: []
 })
-assert.ok(fs.existsSync('test.json'))
+test('file created', function (t) {
+  t.true(fs.existsSync('test.json'), 'file is not created')
+  db.write()
+})
 db.data.accounts.push('hi')
 db.write()
-assert.deepStrictEqual(JSON.parse(fs.readFileSync('test.json', {encoding: 'utf8'})), { accounts: ['hi'] })
-console.log('all passed!')
+test('db made properly', function (t) {
+  t.deepEqual(db.data, { accounts: ['hi'] }, 'db is not made properly')
+})
+test('file written properly', function (t) {
+  t.deepEqual(JSON.parse(fs.readFileSync('test.json', {encoding: 'utf8'})), { accounts: ['hi'] }, 'file is not written properly')
+})
