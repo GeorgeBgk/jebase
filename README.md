@@ -35,13 +35,16 @@ If you have changed something in the database and want to save it, just call `db
 ### Methods
 #### `new jb.Jebase(file, defaults)`
 _Returns `db`_
+
 Loads a database file
-file - relative or absolute path to database file
-defaults - what to write to the database if the file does not exist
+
+- file - relative or absolute path to JSON file
+- defaults - what to write to the database if the file does not exist
 #### `db.data`
 _Returns `object`_
+DB contents
 #### `db.write()`
 _Returns void_
-Writes database data to disk
+Writes JSON data to disk
 #### `new jb.jebase(file, defaults)` _deprecated_
 This constructor is deprecated, use `new jb.Jebase` instead
