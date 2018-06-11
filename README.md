@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.com/GeorgeBgk/jebase.svg?branch=master)](https://travis-ci.com/GeorgeBgk/jebase)
 [![npm](https://img.shields.io/npm/dy/jebase.svg)](https://npmjs.org/package/jebase)
+[![npm](https://img.shields.io/npm/v/jebase.svg)](https://npmjs.org/package/jebase)
+[![license](https://img.shields.io/github/license/GeorgeBgk/jebase.svg)](https://github.com/GeorgeBgk/jebase/blob/master/LICENSE)
 ### First things - first
 `npm i jebase`
 
