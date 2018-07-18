@@ -1,3 +1,4 @@
+
 ## Jebase - An easy way to store settings or small databases
 [![JavaScript Style Guide](https://rawcdn.githack.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
@@ -6,27 +7,31 @@
 `npm i jebase`
 
 ### Initialization
-	var jb = require('jebase')
-	var db = new jb.Jebase("somewhweretostore.json", {
-			accounts: [],
-			something: true
-	})
+```js
+var jb = require('jebase')
+var db = new jb.Jebase("somewhweretostore.json", {
+	accounts: [],
+	something: true
+})
+```
 #### What does this code do?
 1. Includes Jebase
 2. Loads the database from `somewheretostore.json`, or if the file does not exist, creates it with these contents: 
-		{
-			accounts: [],
-			something: true
-		}
+```json
+{
+	"accounts": [],
+	"something": true
+}
+```
 3. Done!
 ### Interacting with data
 When you load a database, it is stored inside `db.data` object, so you can manipulate it, like it’s a regular JavaScript object.
-
-	db.data.accounts.push("george@bygeorgenet.me")
-	if (db.data.something) {
-			console.log("Something is enabled")
-	}
-	
+```js
+db.data.accounts.push("george@bygeorgenet.me")
+if (db.data.something) {
+		console.log("Something is enabled")
+}
+```
 If you have changed something in the database and want to save it, just call `db.write();`!
 
 ### Methods
