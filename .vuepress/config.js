@@ -4,5 +4,5 @@ module.exports = {
   themeConfig: {
     sidebar: false
   },
-  base: 'https://oss.bygeorgenet.me/jebase/'
+  base: '/jebase/'
 }
