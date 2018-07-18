@@ -1,6 +1,5 @@
 
 ## Jebase - An easy way to store settings or small databases
-[![JavaScript Style Guide](https://rawcdn.githack.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
 [![Build Status](https://travis-ci.com/gbougakov/jebase.svg?branch=master)](https://travis-ci.com/gbougakov/jebase)
 [![npm](https://img.shields.io/npm/dy/jebase.svg)](https://npmjs.org/package/jebase)
