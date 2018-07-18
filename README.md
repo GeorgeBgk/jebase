@@ -2,7 +2,10 @@
 ## Jebase - An easy way to store settings or small databases
 [![JavaScript Style Guide](https://rawcdn.githack.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-[![Build Status](https://travis-ci.com/GeorgeBgk/jebase.svg?branch=master)](https://travis-ci.com/GeorgeBgk/jebase)
+[![Build Status](https://travis-ci.com/gbougakov/jebase.svg?branch=master)](https://travis-ci.com/gbougakov/jebase)
+[![npm](https://img.shields.io/npm/dy/jebase.svg)](https://npmjs.org/package/jebase)
+[![npm](https://img.shields.io/npm/v/jebase.svg)](https://npmjs.org/package/jebase)
+[![license](https://img.shields.io/github/license/gbougakov/jebase.svg)](https://github.com/gbougakov/jebase/blob/master/LICENSE)
 ### First things - first
 `npm i jebase`
 
@@ -37,13 +40,16 @@ If you have changed something in the database and want to save it, just call `db
 ### Methods
 #### `new jb.Jebase(file, defaults)`
 _Returns `db`_
+
 Loads a database file
-file - relative or absolute path to database file
-defaults - what to write to the database if the file does not exist
+
+- file - relative or absolute path to JSON file
+- defaults - what to write to the database if the file does not exist
 #### `db.data`
 _Returns `object`_
+DB contents
 #### `db.write()`
 _Returns void_
-Writes database data to disk
+Writes JSON data to disk
 #### `new jb.jebase(file, defaults)` _deprecated_
 This constructor is deprecated, use `new jb.Jebase` instead
