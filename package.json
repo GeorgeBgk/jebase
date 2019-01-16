@@ -8,7 +8,7 @@
     "standard": "*"
   },
   "scripts": {
-    "test": "ava && rm test.json"
+    "test": "CI=1 ava"
   },
   "runkitExampleFilename": "runkit.js",
   "keywords": [
