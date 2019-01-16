@@ -1,6 +1,6 @@
 {
   "name": "jebase",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "description": "An easy way to store settings or small databases in Node.js",
   "main": "index.js",
   "devDependencies": {
