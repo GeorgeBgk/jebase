@@ -10,8 +10,8 @@
 
 ### Initialization
 ```js
-var jb = require('jebase')
-var db = new jb.Jebase("somewhweretostore.json", {
+const jb = require('jebase')
+const db = new jb.Jebase("somewhweretostore.json", {
 	accounts: [],
 	something: true
 })
