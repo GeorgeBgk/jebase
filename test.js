@@ -1,7 +1,7 @@
-var test = require('ava').test
-var fs = require('fs')
-var jb = require('./index')
-var db = new jb.Jebase('test.json', {
+const test = require('ava').test
+const fs = require('fs')
+const jb = require('./index')
+const db = new jb.Jebase('test.json', {
   accounts: []
 })
 test('file created', function (t) {

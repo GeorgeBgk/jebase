@@ -10,8 +10,8 @@
 
 ### Initialization
 ```js
-const jb = require('jebase')
-const db = new jb.Jebase("somewhweretostore.json", {
+const { Jebase } = require('jebase')
+const db = new Jebase("somewhweretostore.json", {
 	accounts: [],
 	something: true
 })
@@ -37,7 +37,7 @@ if (db.data.something) {
 If you have changed something in the database and want to save it, just call `db.write();`!
 
 ### Methods
-#### `new jb.Jebase(file, defaults)`
+#### `new Jebase(file, defaults)`
 _Returns `db`_
 
 Loads a database file
@@ -50,5 +50,3 @@ DB contents
 #### `db.write()`
 _Returns void_
 Writes JSON data to disk
-#### `new jb.jebase(file, defaults)` _deprecated_
-This constructor is deprecated, use `new jb.Jebase` instead
