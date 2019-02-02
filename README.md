@@ -1,10 +1,10 @@
-
 ## Jebase - An easy way to store settings or small databases
 
 [![Build Status](https://travis-ci.com/gbougakov/jebase.svg?branch=master)](https://travis-ci.com/gbougakov/jebase)
 [![npm](https://img.shields.io/npm/dy/jebase.svg)](https://npmjs.org/package/jebase)
 [![npm](https://img.shields.io/npm/v/jebase.svg)](https://npmjs.org/package/jebase)
 [![license](https://img.shields.io/github/license/gbougakov/jebase.svg)](https://github.com/gbougakov/jebase/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgbougakov%2Fjebase.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgbougakov%2Fjebase?ref=badge_shield)
 ### First things - first
 `npm i jebase`
 
@@ -50,3 +50,7 @@ DB contents
 #### `db.write()`
 _Returns void_
 Writes JSON data to disk
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgbougakov%2Fjebase.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgbougakov%2Fjebase?ref=badge_large)
